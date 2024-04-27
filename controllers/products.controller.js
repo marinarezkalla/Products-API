@@ -4,6 +4,7 @@ const {validationResult} = require ('express-validator')
 
 
 const getAllProducts =  (req,res)=>{
+    console.log("hello world")
     res.json(products);
 }
 

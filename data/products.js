@@ -1,284 +1,324 @@
-let products = [
+let products = { "Clothes" :[
   
     {
         id:1,
         Name: "young-woman-colourful-trendy-cool-shirt",
         Category: "Women",
         Price: 699,
-        imageUrl: "https://www.freepik.com/free-photo/pretty-woman-wearing-tshirt_4757244.htm#fromView=search&page=2&position=42&uuid=d357769c-e9ed-424e-8069-fc1f0b0a2374"
+        imageUrl: "https://www.freepik.com/free-photo/pretty-woman-wearing-tshirt_4757244.htm#fromView=search&page=2&position=42&uuid=d357769c-e9ed-424e-8069-fc1f0b0a2374",
+        Description:"Pretty woman wearing tshirt"
     },
     {
         id:2,
         Name: "woman-long-orange-dress",
         Category: "Women",
         Price: 450,
-        imageUrl: "https://www.freepik.com/free-photo/young-woman-beautiful-red-dress_5915268.htm#fromView=search&page=1&position=0&uuid=cd624abf-3e72-4fa7-a430-e1e37a98abc9"
+        imageUrl: "https://www.freepik.com/free-photo/young-woman-beautiful-red-dress_5915268.htm#fromView=search&page=1&position=0&uuid=cd624abf-3e72-4fa7-a430-e1e37a98abc9",
+        Description:"Young woman in a beautiful red dress"
     },
     {
         id:3,
         Name: "stylish-young-woman-holding-hands-pockets",
         Category: "Women",
         Price: 325,
-        imageUrl: "https://www.freepik.com/free-photo/stylish-young-woman-smiling-holding-hands-pockets-confident_9799593.htm#fromView=search&page=1&position=1&uuid=d342ad1e-ef92-4fd5-934f-abbc0da99550"
+        imageUrl: "https://www.freepik.com/free-photo/stylish-young-woman-smiling-holding-hands-pockets-confident_9799593.htm#fromView=search&page=1&position=1&uuid=d342ad1e-ef92-4fd5-934f-abbc0da99550",
+        Description:"Stylish young woman smiling, holding hands in pockets confident"
     },
     {
         id:4,
         Name: "beautiful-woman-brown-overcoat-sunglasses-posing-blue-wall",
         Category: "Women",
         Price: 870,
-        imageUrl: "https://www.freepik.com/free-photo/portrait-beautiful-caucasian-brunette-woman-model-brown-overcoat-sunglasses-girl-posing-near-blue-wall_6677289.htm#fromView=search&page=1&position=27&uuid=34772c19-995d-44f0-94aa-9a2bcad749bd"
+        imageUrl: "https://www.freepik.com/free-photo/portrait-beautiful-caucasian-brunette-woman-model-brown-overcoat-sunglasses-girl-posing-near-blue-wall_6677289.htm#fromView=search&page=1&position=27&uuid=34772c19-995d-44f0-94aa-9a2bcad749bd",
+        Description:"Portrait of beautiful caucasian brunette woman model in brown overcoat and sunglasses.Girl posing near blue wall"
     },
     {
         id:5,
         Name: "portrait-young-japanese-woman-with-jacket",
         Category: "Women",
         Price: 590,
-        imageUrl: "https://www.freepik.com/free-photo/portrait-young-japanese-woman-with-jacket_12707336.htm#fromView=search&page=1&position=29&uuid=34772c19-995d-44f0-94aa-9a2bcad749bd"
+        imageUrl: "https://www.freepik.com/free-photo/portrait-young-japanese-woman-with-jacket_12707336.htm#fromView=search&page=1&position=29&uuid=34772c19-995d-44f0-94aa-9a2bcad749bd",
+        Description:"Portrait young japanese woman in grey jacket.Girl posing near brown wall"
     },
     {
         id:6,
         Name: "grey-jacket-white-modern-pretty-young-woman-causal-look",
         Category: "Women",
         Price: 235,
-        imageUrl: "https://www.freepik.com/free-photo/grey-jacket-white-t-shirt-modern-jeans-this-pretty-girl-hipster-young-woman-causal-look_13455403.htm#fromView=search&page=1&position=43&uuid=34772c19-995d-44f0-94aa-9a2bcad749bd"
+        imageUrl: "https://www.freepik.com/free-photo/grey-jacket-white-t-shirt-modern-jeans-this-pretty-girl-hipster-young-woman-causal-look_13455403.htm#fromView=search&page=1&position=43&uuid=34772c19-995d-44f0-94aa-9a2bcad749bd",
+        Description:"Grey jacket , white t-shirt under, modern jeans on this pretty girl. Hipster young woman in causal look."
     },
     {
         id:7,
-        Name: "still-life-rendering-jackets-display",
+        Name: "still-life-jackets-display",
         Category: "Women",
         Price: 220,
-        imageUrl: "https://www.freepik.com/free-photo/still-life-rendering-jackets-display_32501102.htm#fromView=search&page=1&position=13&uuid=34772c19-995d-44f0-94aa-9a2bcad749bd"
+        imageUrl: "https://www.freepik.com/free-photo/still-life-rendering-jackets-display_32501102.htm#fromView=search&page=1&position=13&uuid=34772c19-995d-44f0-94aa-9a2bcad749bd",
+        Description:"Still life rendering of brown jacket display"
     },
     {
         id:8,
-        Name: "beautiful-fashion-woman-elegant-coat",
+        Name: "beautiful-woman-elegant-coat",
         Category: "Women",
         Price: 325,
-        imageUrl: "https://www.freepik.com/free-photo/beautiful-fashion-woman-posing-with-elegant-suit_7497672.htm#fromView=search&page=1&position=3&uuid=9b65855a-2bff-484e-ab5b-249ca208fb97"
+        imageUrl: "https://www.freepik.com/free-photo/beautiful-fashion-woman-posing-with-elegant-suit_7497672.htm#fromView=search&page=1&position=3&uuid=9b65855a-2bff-484e-ab5b-249ca208fb97",
+        Description:"Beautiful fashion woman posing with elegant suit"
     },
     {
         id:9,
-        Name: "light-brown-beige-pants-indoors-still-life",
+        Name: "light-brown-beige-pants",
         Category: "Women",
         Price: 430,
-        imageUrl: "https://www.freepik.com/free-photo/light-brown-beige-pants-indoors-still-life_65109570.htm#fromView=search&page=3&position=8&uuid=75648dbf-e99c-4f2b-96ef-5ae87b5fb305"
+        imageUrl: "https://www.freepik.com/free-photo/light-brown-beige-pants-indoors-still-life_65109570.htm#fromView=search&page=3&position=8&uuid=75648dbf-e99c-4f2b-96ef-5ae87b5fb305",
+        Description:"Light brown beige pants indoors still life"
     },
     {
         id:10,
         Name: "beautiful-woman-wearing-beige-jumpsuit",
         Category: "Women",
         Price: 240,
-        imageUrl: "https://www.freepik.com/free-photo/beautiful-woman-wearing-beige-jumpsuit_15476576.htm#fromView=search&page=3&position=9&uuid=75648dbf-e99c-4f2b-96ef-5ae87b5fb305"
+        imageUrl: "https://www.freepik.com/free-photo/beautiful-woman-wearing-beige-jumpsuit_15476576.htm#fromView=search&page=3&position=9&uuid=75648dbf-e99c-4f2b-96ef-5ae87b5fb305",
+        Description:"Beautiful woman wearing beige jumpsuit"
     },
     {
         id:11,
         Name: "beautiful-woman-jeans",
         Category: "Women",
         Price: 200,
-        imageUrl: "https://www.freepik.com/free-photo/beautiful-woman-jeans_7572005.htm#fromView=search&page=3&position=4&uuid=75648dbf-e99c-4f2b-96ef-5ae87b5fb305"
+        imageUrl: "https://www.freepik.com/free-photo/beautiful-woman-jeans_7572005.htm#fromView=search&page=3&position=4&uuid=75648dbf-e99c-4f2b-96ef-5ae87b5fb305",
+        Description:"Beautiful woman with curly hair in jeans"
     },
     {
         id:12,
-        Name: "carefree-woman-vintage-jeans-looking-front",
+        Name: "woman-vintage-jeans",
         Category: "Women",
         Price: 199,
-        imageUrl: "https://www.freepik.com/free-photo/carefree-woman-vintage-jeans-looking-front_12858260.htm#fromView=search&page=1&position=29&uuid=5c74fd48-d0b2-4add-b99e-8128de6938eb"
+        imageUrl: "https://www.freepik.com/free-photo/carefree-woman-vintage-jeans-looking-front_12858260.htm#fromView=search&page=1&position=29&uuid=5c74fd48-d0b2-4add-b99e-8128de6938eb",
+        Description:"Carefree woman in vintage jeans looking at front"
     },
     {
         id:13,
         Name: "young-woman-colorful-pink-pants",
         Category: "Women",
         Price: 370,
-        imageUrl: "https://www.freepik.com/free-photo/ginger-head-woman-with-colorful-outfit_27586947.htm#fromView=search&page=1&position=17&uuid=75648dbf-e99c-4f2b-96ef-5ae87b5fb305"
+        imageUrl: "https://www.freepik.com/free-photo/ginger-head-woman-with-colorful-outfit_27586947.htm#fromView=search&page=1&position=17&uuid=75648dbf-e99c-4f2b-96ef-5ae87b5fb305",
+        Description:"Ginger head woman with colorful outfit"
     },
     {
         id:14,
         Name: "teenage-girl-stylish-summer-blue-white-pants",
         Category: "Women",
         Price: 290,
-        imageUrl: "https://www.freepik.com/free-photo/vertical-full-length-picture-isolated-image-charming-european-teenage-girl-wearing-stylish-summer-clothes_11527627.htm#fromView=search&page=2&position=52&uuid=822497d1-265f-4135-9f23-bf253de6df65"
+        imageUrl: "https://www.freepik.com/free-photo/vertical-full-length-picture-isolated-image-charming-european-teenage-girl-wearing-stylish-summer-clothes_11527627.htm#fromView=search&page=2&position=52&uuid=822497d1-265f-4135-9f23-bf253de6df65",
+        Description:"Charming European teenage girl wearing stylish summer clothes"
     },
     {
         id:15,
         Name: "pants-hanger-spring-wardrobe",
         Category: "Women",
         Price: 199,
-        imageUrl: "https://www.freepik.com/free-photo/pants-hanger-spring-wardrobe_39701046.htm#fromView=search&page=2&position=17&uuid=822497d1-265f-4135-9f23-bf253de6df65"
+        imageUrl: "https://www.freepik.com/free-photo/pants-hanger-spring-wardrobe_39701046.htm#fromView=search&page=2&position=17&uuid=822497d1-265f-4135-9f23-bf253de6df65",
+        Description:"Pants on hanger spring wardrobe"
     },
     {
         id:16,
         Name: "young-girl-brown-jumpsuit",
         Category: "Women",
         Price: 355,
-        imageUrl: "https://www.freepik.com/free-photo/full-growth-beautiful-young-caucasian-girl-overalls-smiles-camera-pink-background-lifestyle-concept_26288342.htm#fromView=search&page=2&position=13&uuid=822497d1-265f-4135-9f23-bf253de6df65"
+        imageUrl: "https://www.freepik.com/free-photo/full-growth-beautiful-young-caucasian-girl-overalls-smiles-camera-pink-background-lifestyle-concept_26288342.htm#fromView=search&page=2&position=13&uuid=822497d1-265f-4135-9f23-bf253de6df65",
+        Description:"In full growth beautiful young caucasian girl in overalls smiles at camera on pink background Lifestyle concept"
     },
     {
         id:17,
         Name: "charming-asian-woman-pretty-red-dress",
         Category: "Women",
         Price: 280,
-        imageUrl: "https://www.freepik.com/free-photo/full-size-portrait-charming-asian-female-pretty-maroon-dress-posing-beige-background-with-brilliant-smile-hand-waist_6781904.htm#fromView=search&page=1&position=5&uuid=a3285ffb-5204-42fb-8b2d-f637b615aabe"
+        imageUrl: "https://www.freepik.com/free-photo/full-size-portrait-charming-asian-female-pretty-maroon-dress-posing-beige-background-with-brilliant-smile-hand-waist_6781904.htm#fromView=search&page=1&position=5&uuid=a3285ffb-5204-42fb-8b2d-f637b615aabe",
+        Description:"Full size portrait of charming asian female in pretty maroon dress posing over beige background with brilliant smile and hand on waist"
     },
     {
         id:18,
         Name: "beautiful-fashion-woman-elegant-suitsing-beige-smile-hand-waist",
         Category: "Women",
         Price: 470,
-        imageUrl: "https://www.freepik.com/free-photo/beautiful-fashion-woman-posing-with-elegant-suit_7496846.htm#fromView=search&page=1&position=39&uuid=b470bcff-37be-4936-92c1-a06e3ffd9560"
+        imageUrl: "https://www.freepik.com/free-photo/beautiful-fashion-woman-posing-with-elegant-suit_7496846.htm#fromView=search&page=1&position=39&uuid=b470bcff-37be-4936-92c1-a06e3ffd9560",
+        Description:"Beautiful fashion woman posing with elegant suit"
     },
     {
         id:19,
         Name: "graphic-woman-dress-trendy-colorful",
         Category: "Women",
         Price: 276,
-        imageUrl: "https://www.freepik.com/free-photo/graphic-woman-dress-trendy-design-white-background_27841409.htm#fromView=search&page=1&position=22&uuid=b470bcff-37be-4936-92c1-a06e3ffd9560"
+        imageUrl: "https://www.freepik.com/free-photo/graphic-woman-dress-trendy-design-white-background_27841409.htm#fromView=search&page=1&position=22&uuid=b470bcff-37be-4936-92c1-a06e3ffd9560",
+        Description:"Graphic woman dress trendy design on white background"
     },
     {
         id:20,
         Name: "self-confident-woman-short-black-dress",
         Category: "Women",
         Price: 350,
-        imageUrl: "https://www.freepik.com/free-photo/self-confident-lady-short-black-dress-laughs-plays-her-hair-beige-background_12884763.htm#fromView=search&page=1&position=0&uuid=b470bcff-37be-4936-92c1-a06e3ffd9560"
+        imageUrl: "https://www.freepik.com/free-photo/self-confident-lady-short-black-dress-laughs-plays-her-hair-beige-background_12884763.htm#fromView=search&page=1&position=0&uuid=b470bcff-37be-4936-92c1-a06e3ffd9560",
+        Description:"Self-confident lady in short black dress laughs and plays her hair on beige background."
     },
     {
         id:21,
         Name: "young-men-silver-Bracelet",
         Category: "Accessories",
         Price: 350,
-        imageUrl: "https://www.freepik.com/free-photo/vertical-closeup-shot-male-wearing-silver-bracelet-with-his-hands-pockets_11183277.htm#fromView=search&page=1&position=3&uuid=bbaedd4f-fe64-434d-ab4f-7bb5526106bb"
+        imageUrl: "https://www.freepik.com/free-photo/vertical-closeup-shot-male-wearing-silver-bracelet-with-his-hands-pockets_11183277.htm#fromView=search&page=1&position=3&uuid=bbaedd4f-fe64-434d-ab4f-7bb5526106bb",
+        Description:"A male wearing a silver bracelet with his hands in the pockets"
     },
     {
         id:22,
         Name: "women-purse-mediterranean-aesthetics",
         Category: "Accessories",
         Price: 375,
-        imageUrl: "https://www.freepik.com/free-photo/view-women-s-purse-tiles-with-mediterranean-aesthetics_76746668.htm#fromView=search&page=2&position=1&uuid=56f71100-f816-4415-b0c9-922729eb5d27"
+        imageUrl: "https://www.freepik.com/free-photo/view-women-s-purse-tiles-with-mediterranean-aesthetics_76746668.htm#fromView=search&page=2&position=1&uuid=56f71100-f816-4415-b0c9-922729eb5d27",
+        Description:"View of women's purse over tiles with mediterranean aesthetics"
     },
     {
         id:23,
         Name: "young-woman-with-camera-bag-nature",
         Category: "Accessories",
         Price: 400,
-        imageUrl: "https://www.freepik.com/free-photo/young-woman-with-camera-bag-nature_4687770.htm#fromView=search&page=1&position=31&uuid=56f71100-f816-4415-b0c9-922729eb5d27"
+        imageUrl: "https://www.freepik.com/free-photo/young-woman-with-camera-bag-nature_4687770.htm#fromView=search&page=1&position=31&uuid=56f71100-f816-4415-b0c9-922729eb5d27",
+        Description:"Young woman with camera bag in nature"
     },
     {
         id:24,
         Name: "brown-hand-holding-backpack",
         Category: "Accessories",
         Price: 300,
-        imageUrl: "https://www.freepik.com/free-photo/front-view-hand-holding-backpack_11127139.htm#fromView=search&page=1&position=22&uuid=56f71100-f816-4415-b0c9-922729eb5d27"
+        imageUrl: "https://www.freepik.com/free-photo/front-view-hand-holding-backpack_11127139.htm#fromView=search&page=1&position=22&uuid=56f71100-f816-4415-b0c9-922729eb5d27",
+        Description:"Brown hand holding backpack"
     },
     {
         id:25,
         Name: "bag-women-green-stylish",
         Category: "Accessories",
         Price: 320,
-        imageUrl: "https://www.freepik.com/free-photo/bag-hanging-from-furniture-item-indoors_94515270.htm#fromView=search&page=1&position=9&uuid=56f71100-f816-4415-b0c9-922729eb5d27"
+        imageUrl: "https://www.freepik.com/free-photo/bag-hanging-from-furniture-item-indoors_94515270.htm#fromView=search&page=1&position=9&uuid=56f71100-f816-4415-b0c9-922729eb5d27",
+        Description:"Green Bag hanging from furniture item indoors"
     },
     {
         id:26,
         Name: "fashion-man-brown-classique-watch",
         Category: "Accessories",
         Price: 1500,
-        imageUrl: "https://www.freepik.com/free-photo/businessman-checking-time_1131319.htm#fromView=search&page=1&position=24&uuid=04f5ad93-f903-4bfa-8d88-9689ddea826e"
+        imageUrl: "https://www.freepik.com/free-photo/businessman-checking-time_1131319.htm#fromView=search&page=1&position=24&uuid=04f5ad93-f903-4bfa-8d88-9689ddea826e",
+        Description:"fashion man brown classique watch"
     },
     {
         id:27,
         Name: "fashion-young-man-brown-bracelet",
         Category: "Accessories",
         Price: 350,
-        imageUrl: "https://www.freepik.com/free-photo/portrait-handsome-fashion-businessman-model-dressed-elegant-blue-suit-with-glasses_6577918.htm#fromView=search&page=3&position=42&uuid=928e15c7-961d-4273-91a7-c5e3baea2463"
+        imageUrl: "https://www.freepik.com/free-photo/portrait-handsome-fashion-businessman-model-dressed-elegant-blue-suit-with-glasses_6577918.htm#fromView=search&page=3&position=42&uuid=928e15c7-961d-4273-91a7-c5e3baea2463",
+        Description:"Portrait of handsome fashion businessman model dressed in elegant blue suit with glasses."
     },
     {
         id:28,
         Name: "men-fashion-balck-bracelet",
         Category: "Accessories",
         Price: 350,
-        imageUrl: "https://www.freepik.com/free-photo/men-fashion_7903297.htm#fromView=search&page=1&position=2&uuid=cbccf004-a1ab-472a-b42c-8cae7a5414bd"
+        imageUrl: "https://www.freepik.com/free-photo/men-fashion_7903297.htm#fromView=search&page=1&position=2&uuid=cbccf004-a1ab-472a-b42c-8cae7a5414bd",
+        Description:"men fashion balck bracelet"
     },
     {
         id:29,
         Name: "display-shiny-luxurious-golden-chain",
         Category: "Accessories",
         Price: 200,
-        imageUrl: "https://www.freepik.com/free-photo/display-shiny-luxurious-golden-chain_38652570.htm#fromView=search&page=7&position=19&uuid=b845f738-e94c-4ca4-9867-b079191a8d66"
+        imageUrl: "https://www.freepik.com/free-photo/display-shiny-luxurious-golden-chain_38652570.htm#fromView=search&page=7&position=19&uuid=b845f738-e94c-4ca4-9867-b079191a8d66",
+        Description:"Display of shiny and luxurious golden chain"
     },
     {
         id:30,
         Name: "young-woman-stylish-golden-ring",
         Category: "Accessories",
         Price: 120,
-        imageUrl: "https://www.freepik.com/free-photo/portrait-rich-woman-outdoors-with-stylish-dress-sunglasses_29806071.htm#fromView=search&page=5&position=31&uuid=b845f738-e94c-4ca4-9867-b079191a8d66"
+        imageUrl: "https://www.freepik.com/free-photo/portrait-rich-woman-outdoors-with-stylish-dress-sunglasses_29806071.htm#fromView=search&page=5&position=31&uuid=b845f738-e94c-4ca4-9867-b079191a8d66",
+        Description:"Portrait of rich woman outdoors with stylish dress"
     },
     {
         id:31,
         Name: "female-woman-beautiful-silver-necklace",
         Category: "Accessories",
         Price: 180,
-        imageUrl: "https://www.freepik.com/free-photo/closeup-shot-female-wearing-beautiful-silver-necklace-with-pendant_10860369.htm#fromView=search&page=5&position=24&uuid=b845f738-e94c-4ca4-9867-b079191a8d66"
+        imageUrl: "https://www.freepik.com/free-photo/closeup-shot-female-wearing-beautiful-silver-necklace-with-pendant_10860369.htm#fromView=search&page=5&position=24&uuid=b845f738-e94c-4ca4-9867-b079191a8d66",
+        Description:"Closeup shot of a female wearing a beautiful silver necklace with a pendant"
     },
     {
         id:32,
         Name: "young-woman-golden-long-chain-necklace",
         Category: "Accessories",
         Price: 150,
-        imageUrl: "https://www.freepik.com/free-photo/young-woman-wearing-chain-necklace_28951998.htm#fromView=search&page=2&position=11&uuid=b845f738-e94c-4ca4-9867-b079191a8d66"
+        imageUrl: "https://www.freepik.com/free-photo/young-woman-wearing-chain-necklace_28951998.htm#fromView=search&page=2&position=11&uuid=b845f738-e94c-4ca4-9867-b079191a8d66",
+        Description:"Pretty woman wearing tshirt"
     },
     {
         id:33,
         Name: "young-woman-gold-chain-necklace",
         Category: "Accessories",
         Price: 250,
-        imageUrl: "https://www.freepik.com/free-photo/young-woman-wearing-chain-necklace_28951989.htm#fromView=search&page=1&position=28&uuid=b845f738-e94c-4ca4-9867-b079191a8d66"
+        imageUrl: "https://www.freepik.com/free-photo/young-woman-wearing-chain-necklace_28951989.htm#fromView=search&page=1&position=28&uuid=b845f738-e94c-4ca4-9867-b079191a8d66",
+        Description:"Young woman wearing chain necklace"
     },
     {
         id:34,
-        Name: "young-woman-green-short-necklace",
+        Name: "young-woman-blueberry-short-necklace",
         Category: "Accessories",
         Price: 120,
-        imageUrl: "https://www.freepik.com/free-photo/portrait-woman-with-blueberry-necklace_48051311.htm#fromView=search&page=2&position=12&uuid=99383358-973b-4b0c-babf-f29ae0b62b71"
+        imageUrl: "https://www.freepik.com/free-photo/portrait-woman-with-blueberry-necklace_48051311.htm#fromView=search&page=2&position=12&uuid=99383358-973b-4b0c-babf-f29ae0b62b71",
+        Description:"Portrait of woman with blueberry necklace"
     },
     {
         id:35,
         Name: "young-women-short-golden-necklace",
         Category: "Accessories",
         Price: 350,
-        imageUrl: "https://www.freepik.com/free-photo/flamenco-dancer-model-blue-outfit-dance-updo-romantic-posing_8347033.htm#fromView=search&page=1&position=0&uuid=8794c2ef-2adb-4688-844c-c9ec0521a69c"
+        imageUrl: "https://www.freepik.com/free-photo/flamenco-dancer-model-blue-outfit-dance-updo-romantic-posing_8347033.htm#fromView=search&page=1&position=0&uuid=8794c2ef-2adb-4688-844c-c9ec0521a69c",
+        Description:"Flamenco model in blue outfit wearing gold necklace and dance updo romantic posing"
     },
     {
         id:36,
         Name: "young-women-golden-shiny-rings",
         Category: "Accessories",
         Price: 150,
-        imageUrl: "https://www.pexels.com/photo/golden-rings-on-woman-hand-18092913/"
+        imageUrl: "https://www.pexels.com/photo/golden-rings-on-woman-hand-18092913/",
+        Description:"Golden Rings on Woman Hand"
     },
     {
         id:37,
         Name: "young-women-stylish-golden-ring",
         Category: "Accessories",
         Price: 150,
-        imageUrlu: "https://www.pexels.com/photo/person-wearing-silver-rings-9431873/"
+        imageUrlu: "https://www.pexels.com/photo/person-wearing-silver-rings-9431873/",
+        Description:"Woman Wearing Silver Rings"
     },
     {
         id:38,
         Name: "young-woman-golden-bracelet",
         Category: "Accessories",
         Price: 330,
-        imageUrl: "https://unsplash.com/photos/woman-in-yellow-sweater-wearing-gold-bracelet-qsJ5itg93WY"
+        imageUrl: "https://unsplash.com/photos/woman-in-yellow-sweater-wearing-gold-bracelet-qsJ5itg93WY",
+        Description:"woman in yellow sweater wearing gold bracelet"
     },
     {
         id:39,
         Name: "young-woman-beautiful-rings-silver",
         Category: "Accessories",
         Price: 120,
-        imageUrl: "https://www.freepik.com/free-photo/closeup-shot-female-wearing-beautiful-rings-both-hands-showing-with-fists_11063059.htm#fromView=search&page=1&position=3&uuid=4d12dbb1-8db1-4c41-bc46-533af36d8acb"
+        imageUrl: "https://www.freepik.com/free-photo/closeup-shot-female-wearing-beautiful-rings-both-hands-showing-with-fists_11063059.htm#fromView=search&page=1&position=3&uuid=4d12dbb1-8db1-4c41-bc46-533af36d8acb",
+        Description:" A female wearing beautiful rings on both hands and showing with fists"
     },
     {
         id:40,
         Name: "gorgeous-young-womanbig-golden-earrings",
         Category: "Accessories",
         Price: 200,
-        imageUrl: "https://www.freepik.com/free-photo/closeup-portrait-gorgeous-young-woman-with-big-golden-earrings-using-eye-patches-pensive-european-girl-posing-turban_23590650.htm#fromView=search&page=1&position=2&uuid=5bc33143-03e3-47e2-84ef-a4a0d9856f08"
+        imageUrl: "https://www.freepik.com/free-photo/closeup-portrait-gorgeous-young-woman-with-big-golden-earrings-using-eye-patches-pensive-european-girl-posing-turban_23590650.htm#fromView=search&page=1&position=2&uuid=5bc33143-03e3-47e2-84ef-a4a0d9856f08",
+        Description:"Closeup portrait of gorgeous young woman with big golden earrings using eye patches Pensive european girl posing in turban"
     },
     {
         id:41,
@@ -560,7 +600,7 @@ let products = [
         Price:350,
         imageUrl:'https://i.pinimg.com/564x/e8/5d/3c/e85d3c9b709d8a80e5e29199b577f91c.jpg'
     },
-]
+]}
 
 module.exports = {
     products

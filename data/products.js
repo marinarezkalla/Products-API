@@ -293,7 +293,7 @@ let products = { "Clothes" :[
         Name: "Silver Stylish Rings",
         Category: "Accessories",
         Price: 450,
-        imageUrlu: "https://images.pexels.com/photos/9431873/pexels-photo-9431873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        imageUrlu: "https://img.freepik.com/free-photo/woman-showing-her-nail-art-fingernails-with-flower_23-2149820417.jpg?t=st=1715530012~exp=1715533612~hmac=02cf6a74587f03f3423d9d754901880c77a5a9cf59d407edb34512b674d0cad2&w=360",
         Description:"Woman Wearing Silver Rings"
     },
     {

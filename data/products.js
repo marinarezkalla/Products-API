@@ -290,17 +290,6 @@ let products = { "Clothes" :[
     },
     {
         id:37,
-<<<<<<< HEAD
-=======
-        Name: "Silver Stylish Rings",
-        Category: "Accessories",
-        Price: 450,
-        imageUrlu: "https://img.freepik.com/free-photo/woman-showing-her-nail-art-fingernails-with-flower_23-2149820417.jpg?t=st=1715530012~exp=1715533612~hmac=02cf6a74587f03f3423d9d754901880c77a5a9cf59d407edb34512b674d0cad2&w=360",
-        Description:"Woman Wearing Silver Rings"
-    },
-    {
-        id:38,
->>>>>>> 8befa86869b956183724a4cbfb4dc59a2092520e
         Name: "Golden Bracelets",
         Category: "Accessories",
         Price: 830,
@@ -308,11 +297,7 @@ let products = { "Clothes" :[
         Description:"woman in yellow sweater wearing gold bracelet"
     },
     {
-<<<<<<< HEAD
         id:38,
-=======
-        id:39,
->>>>>>> 8befa86869b956183724a4cbfb4dc59a2092520e
         Name: "Silver Rings",
         Category: "Accessories",
         Price: 520,
@@ -320,11 +305,7 @@ let products = { "Clothes" :[
         Description:" A female wearing beautiful rings on both hands and showing with fists"
     },
     {
-<<<<<<< HEAD
         id:39,
-=======
-        id:40,
->>>>>>> 8befa86869b956183724a4cbfb4dc59a2092520e
         Name: "Big Golden Earrings",
         Category: "Accessories",
         Price: 200,
@@ -332,7 +313,6 @@ let products = { "Clothes" :[
         Description:"Closeup portrait of gorgeous young woman with big golden earrings using eye patches Pensive european girl posing in turban"
     },
     {
-<<<<<<< HEAD
         id:40,
         Name:'AC Milan Classic Shirt',
         Category:'Men',
@@ -651,286 +631,6 @@ let products = { "Clothes" :[
         Price:350,
         imageUrl:'https://i.pinimg.com/564x/e8/5d/3c/e85d3c9b709d8a80e5e29199b577f91c.jpg',
         Description:"Gray Plover For Kids"
-=======
-        id:41,
-        Name:'AC Milan Classic Shirt',
-        Category:'Men',
-        Price:350,
-        imageUrl:"https://i.pinimg.com/564x/a2/b7/64/a2b764fd721128f0aed22a2e68d1e9d5.jpg"
-    },
-    {
-        id:42,
-        Name:'Adidas Skateboarding Sweatshirt',
-        Category:'Men',
-        Price:850,
-        imageUrl:'https://i.pinimg.com/564x/75/26/41/75264106b18600ef309c530acc30e7c4.jpg'
-    },
-    {
-        id:43,
-        Name:'Black Jacket WP',
-        Category:'Men',
-        Price:690,
-        imageUrl:'https://i.pinimg.com/564x/6a/6a/b7/6a6ab7666c9844ccc6bf9a2ca92291ab.jpg'
-    },
-    {
-        id:44,
-        Name:'Adidas Sport Jacket',
-        Category:'Men',
-        Price:700,
-        imageUrl:'https://i.pinimg.com/564x/fc/08/10/fc0810c1f6f21434564c0416e39e914f.jpg'
-    },
-    {
-        id:45,
-        Name:'Blazers Masculinos',
-        Category:'Men',
-        Price:800,
-        imageUrl:'https://i.pinimg.com/564x/e9/84/5d/e9845dfa4a6e203279064daa0ad79f43.jpg'
-    },
-    {
-        id:46,
-        Name:'Black Shorts',
-        Category:'Men',
-        Price:300,
-        imageUrl:"https://i.pinimg.com/564x/95/7e/ff/957effc15eaabc95c2445261abe77c80.jpg"
-    },
-    {
-        id:47,
-        Name:'Blue Old Money Shirt',
-        Category:'Men',
-        Price:650,
-        imageUrl:'https://i.pinimg.com/564x/17/4b/5b/174b5b91cdf29086637ab393e1347d53.jpg'
-    },
-    {
-        id:48,
-        Name:'Black Suit',
-        Category:'Men',
-        Price:3000,
-        imageUrl:'https://i.pinimg.com/564x/db/f4/e7/dbf4e7f67165181438d7d50212ee852c.jpg'
-    },
-    {
-        id:49,
-        Name:'Blue Cargo',
-        Category:'Men',
-        Price:450,
-        imageUrl:'https://i.pinimg.com/564x/49/07/16/490716802cd5fb6c23b981ddea0d459c.jpg'
-    },
-    {
-        id:50,
-        Name:'Casual Summer Shirt',
-        Category:'Men',
-        Price:670,
-        imageUrl:'https://i.pinimg.com/564x/1a/8f/1b/1a8f1be0f8c1e8ff4e2984acccec995b.jpg'
-    },
-    {
-        id:51,
-        Name:'Chino Pantalon',
-        Category:'Men',
-        Price:900,
-        imageUrl:'https://i.pinimg.com/564x/81/a5/f6/81a5f673650c5913f508b93d9f4d1a73.jpg'
-    },
-    {
-        id:52,
-        Name:'France 1998 Home Shirt',
-        Category:'Men',
-        Price:450,
-        imageUrl:'https://i.pinimg.com/564x/38/1e/8c/381e8cfb3da2b0861adb956058e419ab.jpg'
-    },
-    {
-        id:53,
-        Name:'Green Old Money Shirt',
-        Category:'Men',
-        Price:700,
-        imageUrl:'https://i.pinimg.com/564x/9d/96/b6/9d96b64c6e4a5a587a30d8fcb9172892.jpg'
-    },
-    {
-        id:54,
-        Name:'Lisbon Classic Shirt',
-        Category:'Men',
-        Price:350,
-        imageUrl:'https://i.pinimg.com/564x/90/6d/dd/906dddc351067414ea98c25f04ee34b8.jpg'
-    },
-    {
-        id:55,
-        Name:'Pocket Pants',
-        Category:'Men',
-        Price:450,
-        imageUrl:'https://i.pinimg.com/564x/da/f2/d2/daf2d2d3650e4154d31498973b7a01c0.jpg'
-    },
-    {
-        id:56,
-        Name:'Aesthetic Sweeter',
-        Category:'Men',
-        Price:450,
-        imageUrl:'https://i.pinimg.com/564x/6f/e2/d2/6fe2d2569307fc50243f5a2db6703d4a.jpg'
-    },
-    {
-        id:57,
-        Name:'Old Money Grey Shirt',
-        Category:'Men',
-        Price:600,
-        imageUrl:'https://i.pinimg.com/564x/c7/14/0d/c7140d0d3eef3d386bbbc421406548a0.jpg'
-    },
-    {
-        id:58,
-        Name:'Old Money Sopranos Shirt',
-        Category:'Men',
-        Price:550,
-        imageUrl:'https://i.pinimg.com/564x/9f/28/87/9f2887a8c7c99595aff03d119fcecc30.jpg'
-    },
-    {
-        id:59,
-        Name:'Red Silk Shirt',
-        Category:'Men',
-        Price:500,
-        imageUrl:'https://i.pinimg.com/564x/05/94/07/05940799204f51b53dc347de8a7ea776.jpg'
-    },  
-    {
-        id:60,
-        Name:'White Shorts',
-        Category:'Men',
-        Price:300,
-        imageUrl:'https://i.pinimg.com/564x/ef/1f/d0/ef1fd07323e2b2ccd2639c0d70809a6b.jpg'
-    },
-    {
-        id:61,
-        Name:'Brown Jacket',
-        Category:'Children',
-        Price:400,
-        imageUrl:'https://i.pinimg.com/564x/70/03/6b/70036b373333390fb0f719cc701448db.jpg'
-    },
-    {
-        id:62,
-        Name:'Red Jumbsuit',
-        Category:'Children',
-        Price:450,
-        imageUrl:'https://i.pinimg.com/564x/b2/01/93/b201932b89f9f05d40748162b13b51b1.jpg'
-    },
-    {
-        id:63,
-        Name:'Yellow Hoodie',
-        Category:'Children',
-        Price:250,
-        imageUrl:'https://i.pinimg.com/564x/2b/8b/26/2b8b265979f9503ccb4bfef969f8d019.jpg'
-    },
-    {
-        id:64,
-        Name:'Green Dress',
-        Category:'Children',
-        Price:400,
-        imageUrl:'https://i.pinimg.com/736x/ec/9d/01/ec9d015f4127b87ee19727fbf7f4c75c.jpg'
-    },
-    {
-        id:65,
-        Name:'Olive Jacket',
-        Category:'Children',
-        Price:600,
-        imageUrl:'https://i.pinimg.com/564x/b3/87/af/b387af4ce419383af975841106e6ca24.jpg'
-    },
-    {
-        id:66,
-        Name:'Black Coat',
-        Category:'Children',
-        Price:550,
-        imageUrl:'https://i.pinimg.com/564x/ba/30/03/ba3003c6624ffe0a4b663fc5b891b1ce.jpg'
-    },
-    {
-        id:67,
-        Name:'Polo Ralph Lauren Jacket',
-        Category:'Children',
-        Price:800,
-        imageUrl:'https://i.pinimg.com/736x/2e/7e/47/2e7e47ff5cfd389000e747940f0d5599.jpg'
-    },
-    {
-        id:68,
-        Name:'Jeans Jacket',
-        Category:'Children',
-        Price:400,
-        imageUrl:'https://i.pinimg.com/564x/62/fc/04/62fc048b1b327c583ca7b0fb5355e43d.jpg'
-    },
-    {
-        id:69,
-        Name:'Baby Blue Shirt',
-        Category:'Children',
-        Price:350,
-        imageUrl:'https://i.pinimg.com/564x/79/08/5d/79085d01ccbc2a5f8691a08272478479.jpg'
-    },
-    {
-        id:70,
-        Name:'White T-Shirt',
-        Category:'Children',
-        Price:300,
-        imageUrl:'https://i.pinimg.com/564x/ef/fd/63/effd635d78ea05a25e450e07eaa6a91e.jpg'
-    },
-    {
-        id:71,
-        Name:'White Plover',
-        Category:'Children',
-        Price:400,
-        imageUrl:'https://i.pinimg.com/564x/b7/47/e8/b747e8ad8781cea4bb85039b2165d68c.jpg'
-    },
-    {
-        id:72,
-        Name:'Leather Jacket',
-        Category:'Children',
-        Price:500,
-        imageUrl:'https://i.pinimg.com/564x/01/57/f2/0157f223c4446ed39c310290d274d13a.jpg'
-    },
-    {
-        id:73,
-        Name:'Polo Shirt | Ralph Laure',
-        Category:'Children',
-        Price:450,
-        imageUrl:'https://i.pinimg.com/564x/7b/c3/50/7bc35015decd7b9f7c652d43934f9e6a.jpg'
-    },
-    {
-        id:74,
-        Name:'White Shirt',
-        Category:'Children',
-        Price:400,
-        imageUrl:'https://i.pinimg.com/564x/d9/84/fa/d984fabd932f82b8cfaf18b57a3a8e1c.jpg'
-    },
-    {
-        id:75,
-        Name:'Blue T-Shirt',
-        Category:'Children',
-        Price:300,
-        imageUrl:'https://i.pinimg.com/564x/5a/7c/e7/5a7ce70c0defffebbac29340409dd9b6.jpg'
-    },
-    {
-        id:76,
-        Name:'Winter T-Shirt',
-        Category:'Children',
-        Price:500,
-        imageUrl:'https://i.pinimg.com/564x/e4/8c/36/e48c366358f31e6155b671b10b4760ee.jpg'
-    },
-    {
-        id:77,
-        Name:'Summer Shirt',
-        Category:'Children',
-        Price:400,
-        imageUrl:'https://i.pinimg.com/564x/e5/49/2d/e5492d690945b472c4bca96d4ba5b0c2.jpg'
-    },
-    {
-        id:78,
-        Name:'Olive Sweeter',
-        Category:'Children',
-        Price:450,
-        imageUrl:'https://i.pinimg.com/564x/de/36/f1/de36f124073910a42ee845e2dfe390fe.jpg'
-    },
-    {
-        id:79,
-        Name:'Red T-Shirt',
-        Category:'Children',
-        Price:200,
-        imageUrl:'https://i.pinimg.com/564x/f0/50/e2/f050e25846f3516666f296e78b104e23.jpg'
-    },
-    {
-        id:80,
-        Name:'Grey Plover',
-        Category:'Children',
-        Price:350,
-        imageUrl:'https://i.pinimg.com/564x/e8/5d/3c/e85d3c9b709d8a80e5e29199b577f91c.jpg'
->>>>>>> 8befa86869b956183724a4cbfb4dc59a2092520e
     },
 ]}
 

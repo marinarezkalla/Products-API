@@ -11,7 +11,7 @@ const getAllProducts =  (req,res)=>{
 
 const getSingleProduct = (req, res)=>{
     const productId = +req.params.productId;
-    let product = products.find ((product) => product.id === productId);
+    let product = products.find((product) => product.id === productId);
 
     if(!product){
        return res.status(404).json("Not Found");

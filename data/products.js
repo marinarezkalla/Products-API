@@ -1,6 +1,5 @@
 let products =[
-  
-    {
+   {
         id:1,
         Name: "Colorful Tshirt",
         Category: "Women",
@@ -713,4 +712,4 @@ let products =[
     },
 ]
 
-module.exports = products;
+module.exports = {products};

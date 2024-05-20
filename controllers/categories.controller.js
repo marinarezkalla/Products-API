@@ -1,4 +1,4 @@
-const {categories} = require ('../data/Categories');
+const categories = require ('../data/Categories');
 
 const {products} = require ('../data/products');
 

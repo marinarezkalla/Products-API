@@ -1,6 +1,6 @@
-const categories = require ('../data/Categories');
+const {categories} = require ('../data/Categories');
 
-const products = require ('../data/products');
+const {products} = require ('../data/products');
 
 
 const getAllCategories = (req, res) => {

@@ -22,4 +22,4 @@ let Categories = [
     }
 ];
 
-module.exports = {Categories};
+module.exports =Categories;

@@ -1,4 +1,4 @@
-let products ={ "Clothes":[
+let products =[{"Clothes":[
    {
         id:1,
         Name: "Colorful Tshirt",
@@ -710,6 +710,6 @@ let products ={ "Clothes":[
         imageUrl:'https://i.pinimg.com/564x/e8/5d/3c/e85d3c9b709d8a80e5e29199b577f91c.jpg',
         Description:"Gray Plover For Kids"
     },
-]};
+]}];
 
 module.exports = {products};

@@ -1,6 +1,6 @@
 const {body} = require ('express-validator') 
 
-const validationSchema = ()=>{
+const prodValidationSchema = ()=>{
    return [
     body('Name')
      .notEmpty()
@@ -17,6 +17,22 @@ const validationSchema = ()=>{
 
   ]}
 
+  const cartValidationSchema = () =>{
+    return [
+      body('item')
+      .notEmpty()
+      .withMessage('Item is required'),
+      body('quantity')
+      .isInt({ gt: 0 })
+      .withMessage('Quantity must be a positive integer'),
+      body('price')
+      .isFloat({ gt: 0 })
+      .withMessage('Price must be a positive number')
+    ]
+
+  }
+
   module.exports = {
-    validationSchema
+    prodValidationSchema,
+    cartValidationSchema
   }
